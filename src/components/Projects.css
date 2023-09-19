@@ -1,0 +1,32 @@
+.project{
+    height: 600px;
+}
+.project h1{
+    text-align: center;
+}
+.project ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.project ul li{
+
+    width: 180px;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+.project ul li:hover{
+    width: 260px;
+    transition: .5s ease-in;
+    box-shadow: 0 0 1px rgb(162, 20, 197), 0 0 2px rgb(162, 20, 197), 0 0 6px rgb(162, 20, 197), 0 0 12px rgb(162, 20, 197), inset 0 0 1px rgb(162, 20, 197), inset 0 0 2px rgb(162, 20, 197), inset 0 0 6px rgb(162, 20, 197), inset 0 0 12px rgb(162, 20, 197);
+
+}
+.project ul li h2{
+    margin-top: 40px;
+}

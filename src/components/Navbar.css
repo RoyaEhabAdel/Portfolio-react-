@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container .name{
+    margin-left: 50px;
+}
+.container ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.container ul li{
+    padding: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.container ul li:hover{
+    color: blueviolet;
+}

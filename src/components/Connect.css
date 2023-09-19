@@ -1,0 +1,31 @@
+.social{
+    background-color: rgb(39, 11, 39);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.social ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.social ul li{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 1px rgb(162, 20, 197), 0 0 2px rgb(162, 20, 197), 0 0 6px rgb(162, 20, 197), 0 0 12px rgb(162, 20, 197), inset 0 0 1px rgb(162, 20, 197), inset 0 0 2px rgb(162, 20, 197), inset 0 0 6px rgb(162, 20, 197), inset 0 0 12px rgb(162, 20, 197);
+}
+.social ul li:hover{
+    background-color: white;
+    color: blueviolet;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}

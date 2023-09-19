@@ -1,0 +1,106 @@
+#skills{
+    background-color: rgb(39, 11, 39);
+}
+.slider{
+    width: 100%;
+    height: 600px;
+    margin-top: 300px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.slider h1{
+    margin-bottom: 80px;
+    margin-left: 80px;
+}
+figure{
+    position: relative;
+    left: 0;
+    width: 400%; 
+    animation: 10s slide infinite;
+}
+.slide{
+    position: relative;
+    width: 25%;
+    height: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.outer{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+#outer1{
+    background: #444 linear-gradient(to right, transparent 11%, #fff 0);
+}
+#outer2{
+    background: #444 linear-gradient(to right, transparent 11%, #fff 0);
+}
+#outer3{
+    background: #444 linear-gradient(to right, transparent 20%, #fff 0);
+}
+#outer4{
+    background: #444 linear-gradient(to right, transparent 30%, #fff 0);
+}
+.inner{
+    background-color: rgb(24, 5, 43);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+.inner h1{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+@keyframes slide{
+    0%{
+        left:0;
+    }
+    10%{
+        left:0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%;
+    }
+    55%{
+        left:-300%;
+    }
+    65%{
+        left:-300%;
+    }
+    66%{
+        left:-200%;
+    }
+    74%{
+        left:-200%;
+    }
+    75%{
+        left:-100%;
+    }
+    85%{
+        left:-100%;
+    }
+    90%{
+        left:0;
+    }
+    100%{
+        left:0;
+    }
+}
